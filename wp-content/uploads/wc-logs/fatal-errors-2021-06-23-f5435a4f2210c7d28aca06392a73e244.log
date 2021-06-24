@@ -1,0 +1,33 @@
+2021-06-23T19:48:38+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\Jetpack\Connection\Manager::is_site_connection() in C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php:2026
+Stack trace:
+#0 C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php(3425): Jetpack::load_modules()
+#1 C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php(3318): Jetpack::plugin_initialize()
+#2 C:\wamp\www\projetRacine\wp-includes\class-wp-hook.php(292): Jetpack::plugin_activation(false)
+#3 C:\wamp\www\projetRacine\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\wamp\www\projetRacine\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\wamp\www\projetRacine\wp-admin\includes\plugin.php(701): do_action('activate_jetpac...', false)
+#6 C:\wamp\www\projetRacine\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php(403): activate_plugin('jetpack/jetpack...')
+#7 C:\wamp\www\projetRacine\wp-includes\rest-api\class-wp-rest-server.php(1139): Automat dans C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php à la ligne 2026
+
+2021-06-23T19:49:14+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\Jetpack\Connection\Manager::is_site_connection() in C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php:2026
+Stack trace:
+#0 C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php(3425): Jetpack::load_modules()
+#1 C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php(3318): Jetpack::plugin_initialize()
+#2 C:\wamp\www\projetRacine\wp-includes\class-wp-hook.php(292): Jetpack::plugin_activation(false)
+#3 C:\wamp\www\projetRacine\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\wamp\www\projetRacine\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\wamp\www\projetRacine\wp-admin\includes\plugin.php(701): do_action('activate_jetpac...', false)
+#6 C:\wamp\www\projetRacine\wp-content\plugins\woocommerce-services\classes\class-wc-connect-nux.php(700): activate_plugin('jetpack/jetpack...')
+#7 C:\wamp\www\projetRacine\wp-includes\class-wp-hook.php(292): WC_Connect_Nux->ajax_activate dans C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php à la ligne 2026
+
+2021-06-23T19:50:51+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\Jetpack\Connection\Manager::is_site_connection() in C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php:2026
+Stack trace:
+#0 C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php(3425): Jetpack::load_modules()
+#1 C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php(3318): Jetpack::plugin_initialize()
+#2 C:\wamp\www\projetRacine\wp-includes\class-wp-hook.php(292): Jetpack::plugin_activation(false)
+#3 C:\wamp\www\projetRacine\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\wamp\www\projetRacine\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\wamp\www\projetRacine\wp-admin\includes\plugin.php(701): do_action('activate_jetpac...', false)
+#6 C:\wamp\www\projetRacine\wp-content\plugins\woocommerce-services\classes\class-wc-connect-nux.php(700): activate_plugin('jetpack/jetpack...')
+#7 C:\wamp\www\projetRacine\wp-includes\class-wp-hook.php(292): WC_Connect_Nux->ajax_activate dans C:\wamp\www\projetRacine\wp-content\plugins\jetpack\class.jetpack.php à la ligne 2026
+
